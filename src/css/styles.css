@@ -74,3 +74,21 @@ body {
 #qr-form > button:hover {
     opacity: 1;
 }
+
+/* QR Code */
+
+#qr-code {
+    display: flex;
+    opacity: 0;
+    border: 1px solid #ccc;
+    padding: 30px 0px;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#container.active #qr-code {
+    opacity: 1;
+}
